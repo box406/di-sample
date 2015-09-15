@@ -1,6 +1,6 @@
 <?php
 
-//namespace lib\log;
+namespace lib\log;
 
 class log 
 {
@@ -14,7 +14,7 @@ class log
     public function regist() {
 
         $this->file_operation->make();
-    }
+      }
 
 }
  

@@ -1,6 +1,6 @@
 <?php
 
-//namespace lib\fileoperation;
+namespace lib\fileoperation;
 
 class fileOperation 
 {

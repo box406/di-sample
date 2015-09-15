@@ -5,7 +5,10 @@ require_once("di_config.php");
 // autoload
 spl_autoload_register(function($class){
 
-  require_once("lib/" . $class . ".php"); 
+  $lists = explode("\\", $class);
+print_r($lists);
+
+  require_once(implode("/", $lists) . ".php"); 
 });
 
 $log = $container["log"];
